@@ -1,0 +1,68 @@
+//21. Compound Assignment With Augmented Division:
+//Convert the assignments for a, b, and c to use the /= operator.
+
+var a=1
+var b=9
+var c=2
+
+a/=2
+console.log(a)
+b/=7
+console.log(b)
+c/+9
+console.log(c)
+
+//22. Declare String Variables:
+var myFirstName="Rasika"
+var myLastName="Sonavane"
+ 
+//23. Escaping Literal Quotes in Strings:
+/*Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+I am a "double quoted" string inside "double quotes"*/
+
+var myStr ="I am a \"double quoted\" string inside \"double quotes\"";
+console.log(myStr)
+
+//24. Quoting Strings with Single Quotes:
+//Change the provided string to a string with single quotes at the beginning and end and no escape characters.
+var conversation = 'Finn exclaims to Jake, "Algebraic!"'
+console.log(conversation)
+
+//25.  Escape Sequences in Strings:
+/*Assign the following three lines of text into the single variable myStr using escape sequences.
+FirstLine
+    \SecondLine
+ThirdLine*/
+
+var myStr='FirstLine \n   \\SecondLine\nThirdLine'
+console.log(myStr)
+
+//26. Concatenating Strings with Plus Operator:
+var myStr = "This is the start." +  "and This is the end."
+console.log(myStr)
+
+//27. Concatenating Strings with the Plus Equals Operator:
+var myStr="This is the first sentence. "
+myStr+="and This is the second sentence."
+console.log(myStr)
+
+//28. Constructing Strings with Variables:
+//Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well
+var myName="Rasika"
+var myStr="My Name is " + myName + " and I am well"
+console.log(myStr)
+
+//29. Appending Variables to Strings:
+thisStr=" This is Awesome"
+myStr="Enjoy it"
+
+myStr+=thisStr
+console.log(myStr)
+
+//30.  Use Bracket Notation to Find the First Character in a String
+/*Use bracket notation to find the first character in the lastName variable 
+and assign it to firstLetterOfLastName*/
+
+lastName="Sonavane"
+var firstLetterOfLastName=lastName[0]
+console.log(firstLetterOfLastName)
